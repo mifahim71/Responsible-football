@@ -1,0 +1,526 @@
+/* =========================================
+              common style
+ ============================================*/
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 50%;
+}
+/*==========================================
+             header-start
+ ============================================*/
+header{
+    width: 100%;
+    background-color: #2D25A0;
+    height: 677px;
+}
+/*=========================================
+             nav-start
+============================================*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .hover{
+    width: 0px;
+}
+span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-nav{
+    margin-left: 120px;
+}
+.left-nav ul{
+    padding-left: 36px;
+}
+.left-nav ul, .right-nav ul{
+    margin-top: 42px;
+    margin-bottom: 0px;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+}
+.fa-bars{
+    display: none;
+    overflow: hidden;
+}
+
+/*=========================================
+               nav-end
+============================================*/
+
+/*=========================================
+             Title and photo starts
+============================================*/
+.title-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title-anchor{
+    padding: 0px;
+}
+.title-anchor li{
+    list-style: none;
+}
+.title{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    font-family: poppins ;
+    margin-left: 156px;
+    margin-top: 121px;
+    margin-bottom: 27px;
+}
+.title p{
+    margin: 0px;
+}
+.watch-live{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    margin-left: 156px;
+}
+.image img{
+    width: 556.01px;
+    margin-top: 67px;
+    margin-right: 140px;
+    margin-left: 59px;
+}
+
+/* new 
+==========
+==========
+==========
+*/
+main{
+    width: 100%;
+}
+.player-information{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+.player{
+    width: 300px;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 1px grey;
+}
+.player img{
+    width: 300px;
+}
+.player h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+.player p{
+    font-weight: 400;
+}
+
+/* banner */
+
+
+.highlight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 165px;
+}
+.copa-highlight{
+    width: 466px;
+    height: 359px;
+}
+.messi{
+    width: 567px;
+    height: 427px;
+    
+}
+.messi img{
+    width: 100%;
+}
+.copa-highlight h1{
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.copa-highlight p{
+    margin-top: 2px;
+    padding-bottom: 30px;
+}
+.copa-highlight a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+}
+
+
+/* end */
+
+
+
+.credit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-logo{
+    width: 484px;
+    height: 213px;
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+.ball-img{
+    display: flex;
+    justify-content: center;
+}
+.ball-img img{
+    width: 470px;
+}
+.icons{
+    width: 170px;
+    height: 32px;
+}
+#ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 120px;
+}
+.icons li{
+    list-style: none;
+}
+.icons a{
+    margin-right: 14px;
+}
+.icons img{
+    width: 32px;
+}
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*=====================
+      Media Queary 
+======================*/
+
+@media (max-width: 1470px) {
+    .left-nav{
+        margin-left: 100px;
+    }
+    .title{
+        margin-left: 120px;
+    }
+    .watch-live{
+        margin-left: 120px;
+    }
+    .player-information{
+        margin-left: 180px;
+    }
+    .image img{
+        margin-right: 0px;
+    }
+}
+@media (max-width: 1380px) {
+    .player-information{
+        margin-left: 140px;
+    }
+    .image img{
+        margin-right: 0px;
+    }
+}
+@media (max-width: 1300px) {
+    .title{
+        margin-left: 70px;
+    }
+    .watch-live{
+        margin-left: 70px;
+    }
+    .left-nav{
+        margin-left: 34px;
+    }
+    .image img{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .player-information{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1200px) {
+    .title-div{
+        width: 45%;
+    }
+    .image{
+        width: 55%;
+    }
+    .title{
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .watch-live{
+        margin-left: 30px;
+    }
+    .left-nav{
+        margin-left: 0px;
+    }
+    .image img{
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .player-information{
+        margin-left: 60px;
+    }
+    .login{
+        margin-left: 230px;
+      }
+}
+@media (max-width: 1150px) {
+    .player-information{
+        margin-left: 30px;
+    }
+    header{
+        height: 1100px;
+      }
+      .title-photo{
+        display: flex;
+        flex-direction: column;
+      }
+      .half-width{
+        width: 100%;
+      }
+      .title{
+        margin-left: 350px;
+      }
+      .watch-live{
+        margin-left: 350px;
+      }
+      .image img{
+        margin-left: 310px;
+      }
+      .display-none{
+        overflow: hidden;
+        display: none;
+      }
+      nav{
+        display: flex;
+        justify-content: space-between;
+      }
+      .fa-right-to-bracket{
+        display: none;
+        overflow: hidden;
+      }
+      .fa-bars{
+        display: inline;
+        overflow: visible;
+      }
+      .login{
+        margin-left: 0px;
+      }
+}
+@media (max-width: 1100px) {
+    .player-information{
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+        margin-left: 160px;
+    }
+    .right-nav{
+        margin-right: 40px;
+    }
+    .highlight{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+    
+@media (max-width: 1060px) {
+  .title{
+    margin-left: 300px;
+    margin-top: 70px;
+  }
+  .watch-live{
+    margin-left: 300px;
+  }
+  .image img{
+    margin-left: 300px;
+  }
+  .right-nav{
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1020px) {
+    .player-information{
+        margin-left: 130px;
+    }
+}
+@media (max-width: 950px) {
+    .player-information{
+        margin-left: 90px
+    }
+    .title{
+        margin-left: 250px;
+      }
+      .watch-live{
+        margin-left: 250px;
+      }
+      .image img{
+        margin-left: 200px;
+      }
+      
+@media (max-width: 850px) {
+    .player-information{
+        margin-left: 50px;
+    }
+    .title{
+        margin-left: 200px;
+      }
+      .watch-live{
+        margin-left: 200px;
+      }
+      .image img{
+        margin-left: 150px;
+      }
+      .display-none{
+        display: none;
+        overflow: hidden;
+      }
+}
+@media(max-width: 770px){
+    .player-information{
+        margin-left: 20px;
+    }
+    .title{
+        margin-left: 150px;
+      }
+      .watch-live{
+        margin-left: 150px;
+      }
+      .image img{
+        margin-left: 100px;
+      }
+}
+
+@media (max-width: 730px) {
+    .player-information{
+        grid-template-columns: 1fr;
+        width: 300px;
+        margin-left: 180px;
+    }
+    .title{
+        margin-left: 100px;
+      }
+      .watch-live{
+        margin-left: 100px;
+      }
+      .image img{
+        margin-left: 50px;
+      }
+      .login{
+        margin-left: 100px;
+      }
+}
+@media (max-width: 650px) {
+    .player-information{
+        margin-left: 130px;
+    }
+    header{
+        height: 1000px;
+    }
+    .title{
+        margin-left: 50px;
+        font-size: 46px;
+      }
+      .watch-live{
+        margin-left: 50px;
+      }
+      .image img{
+        margin-left: 50px;
+        width: 500px;
+      }
+      .highlight{
+        margin-top: 30px;
+      }
+      .messi{
+        width: 328px;
+        height: 248px;
+      }
+      .copa-highlight{
+        width: 329px;
+        height: 299px;
+      }
+      .copa-highlight h1{
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+      }
+}
+@media (max-width: 570px) {
+    .player-information{
+        margin-left: 100px
+    }
+    header{
+        height: 900px;
+    }
+    .title{
+        margin-left: 20px;
+        font-size: 40px;
+      }
+      .watch-live{
+        margin-left: 20px;
+      }
+      .image img{
+        margin-left: 20px;
+        width: 400px;
+      }
+      .login{
+        margin-left: 40px;
+      }
+      .ball-img img{
+        width: 270px;
+      }
+}
+@media (max-width: 500px) {
+    .player-information{
+        margin-left: 70px;
+    }
+    header{
+        height: 800px;
+    }
+    .title{
+        margin-left: 30px;
+        font-size: 36px;
+      }
+      .watch-live{
+        margin-left: 30px;
+      }
+      .image img{
+        margin-left: 30px;
+        width: 329px;
+      }
+      .login{
+        margin-left: 20px;
+      }
+    }
+}
